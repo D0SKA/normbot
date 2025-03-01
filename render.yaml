@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    repo: https://github.com/ТВОЙ_GITHUB/telegram-bot
+    branch: main
+    startCommand: bash start.sh
+    envVars:
+      - key: TOKEN
+        value: ТВОЙ_ТОКЕН
+      - key: ADMIN_ID
+        value: ТВОЙ_АЙДИ
