@@ -2,7 +2,7 @@ services:
   - type: web
     name: telegram-bot
     env: python
-    repo: https://github.com/ТВОЙ_GITHUB/telegram-bot
+    repo: https://github.com/https://github.com/D0SKA/normbot.git
     branch: main
     startCommand: bash start.sh
     envVars:
